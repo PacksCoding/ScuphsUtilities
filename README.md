@@ -5,6 +5,7 @@ Plugin for Any Server that wants to use it!
 # Developers
 
 - [Scuph](http://github.com/Scuph)
+- [Prozza](http://github.com/JeromSar)
 
 
 
