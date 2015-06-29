@@ -1,11 +1,13 @@
 # ScuphUtils
-Plugin made by Developers listed below. Plugin used for testing purposes on PacksCraft
+why did i even fork this lol
 
 
 # Developers
 
 - [Scuph](http://github.com/Scuph)
 - [Prozza](http://github.com/JeromSar)
+- 
+wow you got prozza
 
 
 
@@ -16,5 +18,6 @@ Plugin made by Developers listed below. Plugin used for testing purposes on Pack
 - 3. You may fork this project, but your changes must be open source.
 - 4. You may edit this, but follow rules 1, 2 and 3.
 
+k
  
 
