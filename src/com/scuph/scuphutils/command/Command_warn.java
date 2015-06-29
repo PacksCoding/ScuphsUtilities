@@ -24,7 +24,7 @@ public class Command_warn extends BukkitCommand<ScuphUtils> {
         final Player player = getPlayer(args[0]);
 
         if (player == null) {
-            sender.sendMessage(ChatColor.RED + "Player not found.\nPlease review arguments.");
+            sender.sendMessage(ChatColor.RED + "That player could not be found. Make sure they are online");
         }
 
         String warnReason = StringUtils.join(ArrayUtils.subarray(args, 1, args.length), " ");
@@ -33,7 +33,7 @@ public class Command_warn extends BukkitCommand<ScuphUtils> {
 
         player.sendMessage(ChatColor.RED + "You have been warned!" + ChatColor.RED + "\nReason: " + ChatColor.YELLOW + warnReason + ChatColor.RED + "\nWarned by ~ " + ChatColor.YELLOW + sender.getName());
 
-        sender.sendMessage(ChatColor.GRAY + "Player successfully warned");
+        sender.sendMessage(ChatColor.GRAY + player.getName() + "has been warned");
 
         return true;
     }
