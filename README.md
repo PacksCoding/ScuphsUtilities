@@ -1,5 +1,5 @@
 # ScuphUtils
-Plugin for Any Server that wants to use it!
+Plugin made by Developers listed below. Plugin used for testing purposes on PacksCraft
 
 
 # Developers
