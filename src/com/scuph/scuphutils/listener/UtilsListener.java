@@ -21,6 +21,7 @@ public class UtilsListener implements Listener {
                 } else {
                     player.sendMessage(ChatColor.RED + "I'm sorry, TNT is disabled for players without permission");
                     event.setCancelled(true);
+                    break;
                 }
 
             }
@@ -32,6 +33,7 @@ public class UtilsListener implements Listener {
                 } else {
                     player.sendMessage(ChatColor.RED + "I'm sorry, This is disabled");
                     event.setCancelled(true);
+                    break;
                 }
             }
         }
